@@ -72,7 +72,7 @@ const Skills = () => {
         <motion.div
             key="projects"
             initial={{ clipPath: "circle(0% at 50% 50%)", opacity: 0 }}
-            animate={{ clipPath: "circle(150% at 50% 50%)", opacity: 1 }}
+            animate={{ clipPath: "circle(200% at 50% 50%)", opacity: 1 }}
             exit={{ clipPath: "circle(0% at 50% 50%)", opacity: 0 }}
             transition={{ duration: 0.7, ease: 'easeInOut' }}
         >
