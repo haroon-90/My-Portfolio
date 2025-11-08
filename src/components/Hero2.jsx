@@ -13,7 +13,7 @@ const Hero2 = () => {
             exit={{ clipPath: "circle(0% at 50% 50%)", opacity: 0 }}
             transition={{ duration: 0.7, ease: 'easeInOut' }}
         >
-            <div className="h-[calc(100vh-5em)] mt-[10em] sm:mt-[5em] md:mt-[2em] lg:mt-0 flex flex-col lg:flex-row items-center justify-center gap-10 px-6 text-white">
+            <div className="h-[calc(100vh-5em)]  flex flex-col lg:flex-row items-center justify-center gap-10 px-6 text-white">
 
                 <div className="group flex flex-col justify-center items-start text-left max-w-xl space-y-6 backdrop-blur-[6px] bg-white/5 p-8 rounded-3xl border-4 border-yellow-500 shadow-[0_0_30px_5px_rgba(234,179,8,0.5)] hover:shadow-[0_0_50px_10px_rgba(234,179,8,0.8)] transition-all duration-500">
                     <motion.h1

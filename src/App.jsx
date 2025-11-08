@@ -32,7 +32,7 @@ function App() {
         <div className="relative z-10 flex flex-col justify-center h-full pt-[4em]">
           <Navbar />
           <Routes>
-            <Route path='/' element={<Hero />} />
+            <Route path='/' element={<Hero2 />} />
             <Route path='/home' element={<Hero2 />} />
             <Route path='/About' element={<About />} />
             <Route path='/Skills' element={<Skills />} />
