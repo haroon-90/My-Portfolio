@@ -71,16 +71,16 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="flex gap-5 mt-6">
-                        <a href="https://github.com/haroon-90" target="_blank" rel="noreferrer" className="text-white/70 hover:text-yellow-400 text-2xl transition-colors">
+                        <a href="https://github.com/haroon-90" target="_blank" rel="noreferrer" className="text-white/70 hover:text-gray-900 text-2xl transition-colors">
                             <FaGithub />
                         </a>
-                        <a href="https://www.linkedin.com/in/muhammad-haroon-nawaz-206343362/" target="_blank" rel="noreferrer" className="text-white/70 hover:text-yellow-400 text-2xl transition-colors">
+                        <a href="https://www.linkedin.com/in/muhammad-haroon-nawaz-206343362/" target="_blank" rel="noreferrer" className="text-white/70 hover:text-blue-500 text-2xl transition-colors">
                             <FaLinkedin />
                         </a>
-                        <a href="https://www.instagram.com/haroon_nawaz_" target="_blank" rel="noreferrer" className="text-white/70 hover:text-yellow-400 text-2xl transition-colors">
+                        <a href="https://www.instagram.com/haroon_nawaz_" target="_blank" rel="noreferrer" className="text-white/70 hover:text-orange-500 text-2xl transition-colors">
                             <FaInstagram />
                         </a>
-                        <a href="https://www.facebook.com/haroon.nawaz.144734" target="_blank" rel="noreferrer" className="text-white/70 hover:text-yellow-400 text-2xl transition-colors">
+                        <a href="https://www.facebook.com/haroon.nawaz.144734" target="_blank" rel="noreferrer" className="text-white/70 hover:text-blue-500 text-2xl transition-colors">
                             <FaFacebook />
                         </a>
                     </div>

@@ -25,7 +25,7 @@ const About = () => {
                     </h1>
 
                     <p className=" text-lg leading-relaxed mb-8 text-center">
-                        Hi, I'm <span className="text-white font-bold">Muhammad Haroon Nawaz</span>,
+                        Hi, I'm <span className="font-bold px-1 bg-yellow-500/60 ">Muhammad Haroon Nawaz</span>,
                         a passionate Full Stack Developer who loves crafting clean, efficient and
                         user-focused web experiences. I enjoy turning complex problems into simple,
                         beautiful and functional solutions.

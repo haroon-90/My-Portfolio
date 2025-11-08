@@ -16,7 +16,7 @@ const Navbar = () => {
     <div
       className={`fixed top-0 w-full z-50 mt-1 transition-all duration-500 border-white/10 backdrop-blur-sm border rounded-4xl`}
     >
-      <div className='max-w-7xl mx-auto flex justify-between items-center px-6 h-[4em]'>
+      <div className='max-w-7xl mx-auto flex justify-between items-center px-6 h-[3em]'>
 
         <span
           onClick={reloadpage}
