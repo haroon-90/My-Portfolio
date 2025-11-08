@@ -52,7 +52,7 @@ const Skills = () => {
         const colorClass = colorClasses[color] || "text-white border-white";
         const textColorClass = textColorClasses[color] || "text-white";
         return (
-            <div className={`group skills-category bg-linear-to-br from-white/10 to-white/5 rounded-xl p-6 shadow-md ${colorClass} border transition-all duration-300 hover:scale-[1.02]`}>
+            <div className={`group skills-category bg-white/5 backdrop-blur-[9px] rounded-xl p-6 shadow-md ${colorClass} border transition-all duration-300 hover:scale-[1.02]`}>
                 <h3 className={`text-xl font-semibold mb-4 text-white border-b ${colorClass} pb-2`}>{category.title}</h3>
                 <ul className="space-y-3">
                     {category.skills.map((skill, index) => (
@@ -78,7 +78,7 @@ const Skills = () => {
         >
             <section className="h-[calc(100vh-4em)] p-4 text-white">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-4xl font-bold text-center mb-12 tracking-wide">My Skills</h2>
+                    <h2 className="text-4xl font-bold text-yellow-500 text-center mb-12 tracking-wide">My Skills</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         {renderSkills({ title: 'Frontend Development', skills: skillsList.frontend }, 'blue')}
                         {renderSkills({ title: 'Backend Development', skills: skillsList.backend }, 'green')}

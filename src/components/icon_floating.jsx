@@ -10,38 +10,38 @@ import MongoDB from '../assets/icons/mongodb.png'
 const icon_floating = () => {
     return (
         <div className="fixed inset-0 z-10 h-screen w-screen bg-transparent">
-            <img src={React} alt="React" className="absolute h-11 animate-float1" style={{
+            <img src={React} alt="React" className="absolute h-[6vh] animate-float1" style={{
                 left: '83%',
-                top: '10%',
+                top: '15%',
             }} />
-            <img src={Github} alt="Github" className="absolute h-11 animate-float1" style={{
-                left: '61%',
+            <img src={Github} alt="Github" className="absolute h-[6vh] animate-float1" style={{
+                left: '66%',
                 top: '85%',
                 filter: 'invert(1)',
             }} />
-            <img src={CSS} alt="CSS" className="absolute h-11 animate-float1" style={{
-                left: '60%',
-                top: '35%',
+            <img src={CSS} alt="CSS" className="absolute h-[6vh] animate-float1" style={{
+                left: '63%',
+                top: '37%',
             }} />
-            <img src={HTML} alt="HTML" className="absolute h-11 animate-float1" style={{
-                left: '59%',
+            <img src={HTML} alt="HTML" className="absolute h-[6vh] animate-float1" style={{
+                left: '62%',
                 top: '62%',
             }} />
-            <img src={JS} alt="JavaScript" className="absolute h-11 animate-float1" style={{
-                left: '68%',
-                top: '13%',
+            <img src={JS} alt="JavaScript" className="absolute h-[6vh] animate-float1" style={{
+                left: '70%',
+                top: '18%',
             }} />
-            <img src={NodeJS} alt="NodeJS" className="absolute h-11 animate-float1" style={{
-                left: '95%',
+            <img src={NodeJS} alt="NodeJS" className="absolute h-[6vh] animate-float1" style={{
+                left: '92%',
                 top: '85%',
             }} />
-            <img src={TS} alt="TypeScript" className="absolute h-11 animate-float1" style={{
+            <img src={TS} alt="TypeScript" className="absolute h-[6vh] animate-float1" style={{
                 left: '94%',
-                top: '22%',
+                top: '25%',
             }} />
-            <img src={MongoDB} alt="MongoDB" className="absolute h-11 animate-float1" style={{
+            <img src={MongoDB} alt="MongoDB" className="absolute h-[6vh] animate-float1" style={{
                 left: '96%',
-                top: '55%',
+                top: '57%',
             }} />
         </div>
     )

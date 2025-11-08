@@ -29,7 +29,7 @@ const Projects = () => {
             id: 3,
             title: "MiniXpress",
             description: "A Simple, speedy all-in-one web app for everyone, united in one place!",
-            technologies: ["React.js", "Tailwind CSS", "Axios", "React Router"],
+            technologies: ["React.js", "Tailwind CSS", "Axios", "React Router", "Framer-motion"],
             image: MiniXpress,
             liveLink: "https://haroon-90.github.io/MiniXpress",
             githubLink: "https://github.com/haroon-90/MiniXpress"
@@ -63,7 +63,7 @@ const Projects = () => {
             transition={{ duration: 1, ease: 'easeInOut' }}
         >
             <div className="h-[calc(100vh-2em)] p-2 mt-[4em]">
-                <h2 className="text-3xl font-bold text-center mb-8 text-transparent bg-clip-text bg-white">
+                <h2 className="text-3xl font-bold text-center mb-8 text-yellow-500">
                     My Projects
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -71,7 +71,7 @@ const Projects = () => {
                         <div
                             key={project.id}
                             className=" flex flex-col justify-around items-center bg-linear-to-br from-white/10 to-white/5 rounded-lg p-4 border border-white/50 shadow-lg 
-                        hover:shadow-xl transition-all duration-300 hover:scale-[1.02]"
+                        hover:shadow-xl hover:border-yellow-500 transition-all duration-300 hover:shadow-yellow-500/40 hover:scale-[1.02] "
                         >
                             <img
                                 src={project.image}
@@ -79,7 +79,7 @@ const Projects = () => {
                                 className="w-full h-48 object-cover object-top-left rounded-md shadow-sm"
                             />
                             <h3 className="text-xl font-semibold mt-4 text-white">{project.title}</h3>
-                            <p className="text-gray-200 mt-2">{project.description}</p>
+                            <p className="text-white mt-2">{project.description}</p>
                             <div className="flex flex-wrap gap-2 mt-3 justify-center">
                                 {project.technologies.map((tech, index) => (
                                     <span

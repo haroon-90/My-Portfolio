@@ -1,8 +1,13 @@
-import Blured_BG from './assets/blurred_background.png'
-import bg from './assets/background_img.png'
+import bg from './assets/background_img-min.png'
+import bg1 from './assets/blurred_background-min.png'
+import bg2 from './assets/coding_bg2-min.png'
+import bg3 from './assets/coding_bg3-min.png'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Hero2 from './components/Hero2'
+import Hero3 from './components/Hero3'
+import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
@@ -13,35 +18,29 @@ function App() {
 
   return (
     <div className="relative h-screen">
-      {/* <motion.div
-        initial={{ clipPath: 'circle(0% at 50% 50%)' }}
-        animate={{ clipPath: 'circle(150% at 50% 50%)' }}
-        exit={{ clipPath: 'circle(0% at 50% 50%)' }}
-        transition={{ duration: 0.7, ease: 'easeInOut' }}
-      > */}
       <div
         className="fixed inset-0"
         style={{
-          backgroundImage: `url(${bg})`,
+          backgroundImage: `url(${bg1})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          filter: 'blur(9px)',
+          filter: 'blur(10px)',
           zIndex: -1
         }}
       />
-      {/* <AnimatePresence mode="wait"> */}
+      <AnimatePresence mode="wait">
         <div className="relative z-10 flex flex-col justify-center h-full pt-[4em]">
           <Navbar />
           <Routes>
             <Route path='/' element={<Hero />} />
-            <Route path='/about' element={<Hero />} />
+            <Route path='/home' element={<Hero2 />} />
+            <Route path='/About' element={<About />} />
             <Route path='/Skills' element={<Skills />} />
             <Route path='/Projects' element={<Projects />} />
             <Route path='/Contact' element={<Contact />} />
           </Routes>
         </div>
-      {/* </AnimatePresence> */}
-      {/* </motion.div> */}
+      </AnimatePresence>
     </div >
   )
 }

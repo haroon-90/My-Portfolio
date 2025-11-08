@@ -19,3 +19,8 @@ body {
     50% { transform: translateY(-20px); }
     100% { transform: translateY(0); }
 }
+
+/* hide scroll bar for body  */
+body::-webkit-scrollbar {
+  display: none;
+}

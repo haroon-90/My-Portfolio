@@ -1,11 +1,11 @@
 import React from 'react'
 
 const Button = (props) => {
-return (
-    <button 
-        className={`
+    return (
+        <button
+            className={`
             bg-blue-700 
-            hover:bg-blue-500 
+            hover:bg-yellow-500 
             text-white 
             font-bold 
             py-2 
@@ -17,13 +17,15 @@ return (
             hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]
             hover:scale-105
             active:scale-95
+            disabled:opacity-50
+            disabled:cursor-not-allowed
             ${props.className}
         `}
-        onClick={props.onClick}
-    >
-        {props.children}
-    </button>
-)
+            onClick={props.onClick}
+        >
+            {props.children}
+        </button>
+    )
 }
 
 export default Button
