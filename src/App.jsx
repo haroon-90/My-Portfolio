@@ -13,11 +13,17 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+import Snowfall from "react-snowfall";
 
 function App() {
 
   return (
     <div className="relative h-screen">
+      <Snowfall
+        snowflakeCount={50}   // intensity control
+        radius={[1, 2]}       // snow size
+        speed={[0.3, 1.3]}    // falling speed
+      />
       <div
         className="fixed inset-0"
         style={{
@@ -39,7 +45,6 @@ function App() {
             <Route path='/Projects' element={<Projects />} />
             <Route path='/Contact' element={<Contact />} />
           </Routes>
-          <Footer />
         </div>
       </AnimatePresence>
     </div >
